@@ -1,3 +1,10 @@
+ <h3 align="center">
+  
+  Welcome to my Readme!
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+</h3>
+
+
 [<img alt="github" src="https://img.shields.io/badge/github-NARI1108/PASSWORD-8da0cb?logo=github" height="20">](https://github.com/NARI1108/Password)
 [![Apache](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/NARI1108/Password/blob/master/LICENSE)
 
