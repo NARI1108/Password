@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">password</string>
+    <string name="your_password">your password</string>
+    <string name="login">Login</string>
+    <string name="forgotten">I forgot the password</string>
+    <string name="change_password">Change your the Password</string>
 </resources>
