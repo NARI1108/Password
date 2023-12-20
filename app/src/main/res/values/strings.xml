@@ -4,4 +4,6 @@
     <string name="login">Login</string>
     <string name="forgotten">I forgot the password</string>
     <string name="change_password">Change your the Password</string>
+    <string name="mobile_no">Mobile NO</string>
+    <string name="save">save</string>
 </resources>
