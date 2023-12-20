@@ -21,7 +21,7 @@
             <code><strong>The purpose of making this application is to familiarize with the following:</strong></code>
 <ul>
     <li>
-         Material design training (making a snack bar).
+        (SharedPreferences) in Android programming.
     </li>
     <li>
          Teaching test design in Java language.
