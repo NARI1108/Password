@@ -24,7 +24,7 @@
         (SharedPreferences) in Android programming.
     </li>
     <li>
-         Teaching test design in Java language.
+        How to set a password to enter the program.
     </li>
     <li>
         How to make a Timer in Android Studio.
