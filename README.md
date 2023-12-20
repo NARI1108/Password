@@ -11,8 +11,9 @@
 
 ## <code><strong>About App</strong></code> ##
 <p>
-  This app actually teaches questions and signs and traffic signs for new students. We implemented this app in the simplest graphic design that I wanted to implement in the chapter related to it. You can 
-  improve this app in terms of graphic design.
+ One of the important topics in Android programming is learning how to work with SharedPreferences, which is actually one of the methods of saving information and is mostly used to save program settings (such 
+ as changing the font and size of texts, etc.). And in this project, we teach one of its important uses, this use is to use it to create passwords and login pages for applications that we create with Android 
+ Studio.
 </p>
 
           
