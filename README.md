@@ -27,7 +27,7 @@
         How to set a password to enter the program.
     </li>
     <li>
-        How to make a Timer in Android Studio.
+       Password recovery by sending SMS to the user's number.
     </li>
     <li>
         Teaching how to sign the program and exit from it.
