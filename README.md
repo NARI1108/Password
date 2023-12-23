@@ -8,7 +8,8 @@
 [<img alt="github" src="https://img.shields.io/badge/github-NARI1108/PASSWORD-8da0cb?logo=github" height="20">](https://github.com/NARI1108/Password)
 [![Apache](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/NARI1108/Password/blob/master/LICENSE)
 [![Password](https://img.shields.io/badge/Vidoe-Password-red.svg)](https://github.com/NARI1108/TIC-TAC-TOE/files/11415353/TicTacToe.zip)
-![GitHub language count](https://img.shields.io/github/languages/count/NARI1108/Password)
+![GitHub language count](https://img.shields.io/github/languages/count/NARI1108/Password?color=pink)
+
 
 
 ## <code><strong>About App</strong></code> ##
