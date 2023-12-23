@@ -9,6 +9,7 @@
 [![Apache](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/NARI1108/Password/blob/master/LICENSE)
 [![Password](https://img.shields.io/badge/Vidoe-Password-red.svg)](https://github.com/NARI1108/TIC-TAC-TOE/files/11415353/TicTacToe.zip)
 ![GitHub language count](https://img.shields.io/github/languages/count/NARI1108/Password?color=pink)
+![GitHub watchers](https://img.shields.io/github/watchers/NARI1108/Password?labelColor=gray&color=yellow)
 
 
 
