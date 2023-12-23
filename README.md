@@ -4,17 +4,11 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h3>
 
-
 [<img alt="github" src="https://img.shields.io/badge/github-NARI1108/PASSWORD-8da0cb?logo=github" height="20">](https://github.com/NARI1108/Password)
 [![Apache](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/NARI1108/Password/blob/master/LICENSE)
 [![Password](https://img.shields.io/badge/Vidoe-Password-red.svg)](https://github.com/NARI1108/TIC-TAC-TOE/files/11415353/TicTacToe.zip)
 ![GitHub language count](https://img.shields.io/github/languages/count/NARI1108/Password?color=pink)
 ![GitHub watchers](https://img.shields.io/github/watchers/NARI1108/Password?labelColor=gray&color=yellow)
-![Discord](https://img.shields.io/discord/902571177892020346)
-
-
-
-
 
 ## <code><strong>About App</strong></code> ##
 <p>
