@@ -45,8 +45,20 @@ public class login extends AppCompatActivity {
                 mobile_edit.putString(Password,password);
                 mobile_edit.apply();
                 Toast.makeText(login.this, getResources().getString(R.string.saving), Toast.LENGTH_SHORT).show();
+                sms();
                 finish();
             }
         });
         }
+//  This method sends password and user number to the user via SMS.
+    public void sms(){
+        String PASSWORD = SharedP.getString("Password",getString(R.string.MESSAGE));
+        String MOBILE = SharedP.getString("Mobile_No",getString(R.string.MESSAGE));
+        try {
+            SmsManager sms = SmsManager.getDefault();
+            sms.sendTextMessage(MOBILE,null,"your password is:"+PASSWORD,null,null);
+        }catch(Exception e){
+            Toast.makeText(login.this, getResources().getString(R.string.message), Toast.LENGTH_SHORT).show();
+        }
+    }
 }
