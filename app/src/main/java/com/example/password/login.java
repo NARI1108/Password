@@ -49,6 +49,7 @@ public class login extends AppCompatActivity {
                 finish();
             }
         });
+        recovery();
         }
 //  This method sends password and user number to the user via SMS.
     public void sms(){
@@ -60,5 +61,12 @@ public class login extends AppCompatActivity {
         }catch(Exception e){
             Toast.makeText(login.this, getResources().getString(R.string.message), Toast.LENGTH_SHORT).show();
         }
+    }
+//    This method is for recovering user number and password.
+    public void recovery(){
+        if (SharedP.contains(Mobile_NO)){
+            edt_mobile.setText(SharedP.getString(Mobile_NO,getString(R.string.Alarm_mobile)));
+        }if (SharedP.contains(Password))
+            edt_password.setText(SharedP.getString(Password,getString(R.string.Alarm_password)));
     }
 }
