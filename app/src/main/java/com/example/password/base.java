@@ -2,6 +2,8 @@ package com.example.password;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,10 +14,14 @@ public class base extends AppCompatActivity {
     Button btn_save;
     TextView txt_change, txt_forgotten;
     Button btn_send;
+    public static final String LoginInfo = "login_info";
+    public static final String Mobile_NO = "mobile_no";
+    public static final String Password  = "password";
+    SharedPreferences SharedP;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        SharedP = getSharedPreferences(LoginInfo, Context.MODE_PRIVATE);
     }
     //    This method actually connects views and layers from an XML layer to this layer.
     public void findViews(){
