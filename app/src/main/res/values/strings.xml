@@ -6,4 +6,9 @@
     <string name="change_password">Change your the Password</string>
     <string name="mobile_no">Mobile NO</string>
     <string name="save">save</string>
+    <string name="saving">Saved and sent to your mobile</string>
+    <string name="MESSAGE">There is no secret</string>
+    <string name="message">Sending message failed</string>
+    <string name="Alarm_mobile">No number has been saved yet</string>
+    <string name="Alarm_password">No password is currently saved</string>
 </resources>
