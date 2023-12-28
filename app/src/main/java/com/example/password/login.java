@@ -1,7 +1,5 @@
 package com.example.password;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -11,9 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class login extends AppCompatActivity {
-    EditText edt_mobile, edt_password;
-    Button btn_save;
+public class login extends base {
     SharedPreferences SharedP;
     public static final String LoginInfo = "login_info";
     public static final String Mobile_NO = "mobile_no";
@@ -25,12 +21,6 @@ public class login extends AppCompatActivity {
         findViews();
         saved();
     }
-//    This method actually connects views and layers from an XML layer to this layer.
-    public void findViews(){
-        edt_password = findViewById(R.id.edt_password);
-        edt_mobile = findViewById(R.id.edt_mobile);
-        btn_save = findViewById(R.id.btn_save);
-     }
 //     This method is for saving user information.
      public void saved(){
         SharedP = getSharedPreferences(LoginInfo, Context.MODE_PRIVATE);
@@ -49,6 +39,7 @@ public class login extends AppCompatActivity {
                 finish();
             }
         });
+        recovery();
         }
 //  This method sends password and user number to the user via SMS.
     public void sms(){
@@ -60,5 +51,12 @@ public class login extends AppCompatActivity {
         }catch(Exception e){
             Toast.makeText(login.this, getResources().getString(R.string.message), Toast.LENGTH_SHORT).show();
         }
+    }
+//    This method is for recovering user number and password.
+    public void recovery(){
+        if (SharedP.contains(Mobile_NO)){
+            edt_mobile.setText(SharedP.getString(Mobile_NO,getString(R.string.Alarm_mobile)));
+        }if (SharedP.contains(Password))
+            edt_password.setText(SharedP.getString(Password,getString(R.string.Alarm_password)));
     }
 }
