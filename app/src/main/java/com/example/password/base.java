@@ -17,6 +17,7 @@ public class base extends AppCompatActivity {
     public static final String LoginInfo = "login_info";
     public static final String Mobile_NO = "mobile_no";
     public static final String Password  = "password";
+    public static final String PasswordMessage = "your password is:";
     SharedPreferences SharedP;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
