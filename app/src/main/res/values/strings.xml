@@ -11,4 +11,6 @@
     <string name="message">Sending message failed</string>
     <string name="Alarm_mobile">No number has been saved yet</string>
     <string name="Alarm_password">No password is currently saved</string>
+    <string name="sms">we had sent password to your mobile</string>
+    <string name="suggest">you can coding ur app here.</string>
 </resources>
