@@ -1,19 +1,13 @@
 package com.example.password;
 
-import android.content.Context;
+
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Toast;
 
 public class login extends base {
-    SharedPreferences SharedP;
-    public static final String LoginInfo = "login_info";
-    public static final String Mobile_NO = "mobile_no";
-    public static final String Password  = "password";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +17,6 @@ public class login extends base {
     }
 //     This method is for saving user information.
      public void saved(){
-        SharedP = getSharedPreferences(LoginInfo, Context.MODE_PRIVATE);
         btn_save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,7 +40,7 @@ public class login extends base {
         String MOBILE = SharedP.getString("Mobile_No",getString(R.string.MESSAGE));
         try {
             SmsManager sms = SmsManager.getDefault();
-            sms.sendTextMessage(MOBILE,null,"your password is:"+PASSWORD,null,null);
+            sms.sendTextMessage(MOBILE,null,PasswordMessage+PASSWORD,null,null);
         }catch(Exception e){
             Toast.makeText(login.this, getResources().getString(R.string.message), Toast.LENGTH_SHORT).show();
         }
