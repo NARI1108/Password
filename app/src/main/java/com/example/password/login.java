@@ -40,7 +40,7 @@ public class login extends base {
         String MOBILE = SharedP.getString("Mobile_No",getString(R.string.MESSAGE));
         try {
             SmsManager sms = SmsManager.getDefault();
-            sms.sendTextMessage(MOBILE,null,"your password is:"+PASSWORD,null,null);
+            sms.sendTextMessage(MOBILE,null,PasswordMessage+PASSWORD,null,null);
         }catch(Exception e){
             Toast.makeText(login.this, getResources().getString(R.string.message), Toast.LENGTH_SHORT).show();
         }
