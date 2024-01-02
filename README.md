@@ -6,10 +6,11 @@
 
 [<img alt="github" src="https://img.shields.io/badge/github-NARI1108/PASSWORD-8da0cb?logo=github" height="20">](https://github.com/NARI1108/Password)
 [![Apache](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/NARI1108/Password/blob/master/LICENSE)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/NARI1108/PASSWORD?style=social)
 [![Password](https://img.shields.io/badge/Vidoe-Password-red.svg)](https://github.com/NARI1108/TIC-TAC-TOE/files/11415353/TicTacToe.zip)
 ![GitHub language count](https://img.shields.io/github/languages/count/NARI1108/Password?color=pink)
 ![GitHub watchers](https://img.shields.io/github/watchers/NARI1108/Password?labelColor=gray&color=yellow)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/NARI1108/PASSWORD?style=social)
+
 
 ## <code><strong>About App</strong></code> ##
 <p>
