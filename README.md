@@ -11,7 +11,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/NARI1108/Password?color=pink)
 ![GitHub watchers](https://img.shields.io/github/watchers/NARI1108/Password?labelColor=gray&color=yellow)
 
-
 ## <code><strong>About App</strong></code> ##
 <p>
  One of the important topics in Android programming is learning how to work with SharedPreferences, which is actually one of the methods of saving information and is mostly used to save program settings (such 
